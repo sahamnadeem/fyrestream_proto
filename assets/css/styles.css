@@ -1,6 +1,6 @@
 body {
   height: 20000px;
-  background: rgb(220,220,220);
+  background: rgb(241,241,241);
 }
 
 .topline {
@@ -102,6 +102,7 @@ body {
 
 .card-fyre-header {
   padding: 10px 0px 10px 0px;
+  overflow: hidden;
 }
 
 #activity-img {
@@ -152,5 +153,58 @@ body {
 .news {
   display: block;
   margin: auto;
+}
+
+.create-post {
+  background-color: rgba(228,228,228,0.77);
+}
+
+.tabs {
+  cursor: pointer;
+  height: 100%;
+  padding: 8px;
+}
+
+@media (max-width: 1000px) {
+  #news {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
+  #users {
+    display: none;
+  }
+}
+
+#inside-tabs {
+  margin-left: 20px;
+}
+
+.status {
+  width: 100%;
+  border: none;
+}
+
+.status:focus {
+  resize: none;
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(213,213,213);
+}
+
+.tag {
+  margin: 5px;
+  border-radius: 50px;
+  background: grey;
+  padding: 4px 15px 10px 15px;
+}
+
+.lss {
+  font-size: 12px;
+  border-radius: 50%;
+  padding: 5px;
 }
 
